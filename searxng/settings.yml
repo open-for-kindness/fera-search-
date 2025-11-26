@@ -2,7 +2,7 @@
 use_default_settings: true
 server:
   # base_url is defined in the SEARXNG_BASE_URL environment variable, see .env and docker-compose.yml
-  base_url: https://fera-inc.github.io/fera/
+  base_url: "https://fera-search-six.vercel.app/"
   secret_key: "himanshu-is-not-fool-like-you--always-be-kind-12345"  # change this!
   limiter: true  # enable this when running the instance for a public usage on the internet
   image_proxy: true
